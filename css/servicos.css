@@ -1,0 +1,49 @@
+#servicos h2{
+    color:  #0091D6;
+}
+
+hr{
+    border-bottom: 1px solid  #0091D6;
+    width: 20%;
+    margin: 2% auto 2% auto;
+}
+
+#servicos div:nth-child(1),
+#servicos div:nth-child(3){
+    background: white;
+    
+}
+
+#conteudos_servicos{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+#conteudos_servicos div{
+    border: 1px solid;
+    width: 48%;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color:  #0091D6;
+}
+
+#conteudos_servicos div img{
+    width: 30%;
+    display: block;
+    margin: 2% auto;
+}
+
+#conteudos_servicos div .h33{
+    color:  #0091D6;
+}
+
+#conteudos_servicos div .h34{
+    color: white;
+}
+
+#conteudos_servicos div .p34{
+    color: white;
+}

@@ -1,0 +1,26 @@
+#fotos h2{
+    color:  #0091D6;
+}
+
+.galery{
+    margin: auto;
+    width: 70%;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#fotos h2{
+    margin-bottom: 3%;
+}
+
+.galery img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    transition: scale 350ms ease, opacity 350ms linear;
+}
+
+.galery:has(img:hover) img:not(:hover){
+    scale: .9;
+    opacity: .7;
+}
